@@ -364,7 +364,7 @@ function heroSectionHeight(){
 
             //$(".hero-section").height( $(".hero-section .map-wrapper").height() +  $(".hero-section .search-form").height() + $(".hero-section .results").height() + 40 );
 
-            $(".map-wrapper").height( $(window).height());
+            $(".map-wrapper").height( $(window).height()-58);
             $(".has-background").css( "min-height", $(window).height() - $("#page-header").height() + "px" );
 
             //barra com titulo dos resultados aparecendo na tela
